@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2C2F33;
+}
+
+/*INTERFACE*/
+
+.interface {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+header {
+    padding: 40px 4%;
+    background-color: #23272A;
+}
+
+header > .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color:#e2e0dd;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    font-size: 18px;
+}
+
+header a:hover {
+    color:#4169E1;
+    transform: scale(1.15);
+}
+
+header li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+.btn-contato button {
+    color: #e2e0dd;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:#4169E1;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 20px #4169E1;
+    transform: scale(1.10);
+    background-color: #e2e0dd;
+    color: #4169E1;
+}

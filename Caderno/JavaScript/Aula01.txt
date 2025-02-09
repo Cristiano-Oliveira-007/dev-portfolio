@@ -1,0 +1,5 @@
+Aula #01 - Javascript
+
+- alert('Olá Mundo') - Mostra uma mensagem na tela
+- console.log('Esse trecho do codigo funcionou') - Mostra uma mensagem 
+no console

@@ -1,0 +1,21 @@
+Aula #05 - Repetições e laços
+
+- let nomes = ['José', 'Maria', 'João']
+- for(let i = 0; i < nomes.length; i++){
+    console.log("O nome é : " + nomes[i])
+}
+
+O nome é: José
+O nome é: Maria
+O nome é: João
+
+-let saudacoes = 0;
+-while (saudacoes <nomes.length){
+    consoloe.log("O nome é: " + nomes[saudacoes])
+    saudacoes++
+}
+
+O nome é: José
+O nome é: Maria
+O nome é: João
+

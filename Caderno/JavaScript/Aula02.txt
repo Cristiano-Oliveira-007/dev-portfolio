@@ -1,0 +1,12 @@
+Aula #02 - Variáveis e constantes
+
+- let - Valores que podem ser substituídos.
+- const - Valores que não podem ser substituídos e devem sem iniciados 
+com algum Valor.
+
+"=" significa atribuição de Valores.
+"==" significa comparação de Valores.
+
+* Variáveis que possuem  mais de um "nome" ou unome composto 
+deve-se usar Kemel case 
+- Ex: let nomeCompleto;

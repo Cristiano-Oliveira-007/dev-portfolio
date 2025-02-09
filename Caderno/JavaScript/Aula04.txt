@@ -1,0 +1,29 @@
+Aula #04 - Listas e Array
+
+- const listaDeMaterias = ['HTML', 'CSS', 'Javascript']
+
+- listaDeMaterias
+(3) ['HTML', 'CSS', 'Javascript']
+   0:"HTML"
+   1:"CSS"
+   2:"Javascript
+   length: 3
+   [[Prototype]]: Array(0)
+
+- listaDeMaterias [1]
+'CSS'
+
+-listaDeMaterias.length
+3
+
+-listaDeMaterias.push('JQuery')
+4
+
+-listaDeMaterias
+(4) ['HTML', 'CSS', 'Javascript', 'JQuery']
+
+-listaDeMaterias.splice(1,1)
+['CSS']
+
+-listaDeMaterias
+(3) ['HTML', 'Javascript', 'JQuery']
